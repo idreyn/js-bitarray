@@ -1,4 +1,7 @@
 # js-bitarray
+
+![Conway's Game of Life](http://i.imgur.com/3mNRhPg.gif)
+
 Sometimes you just need to store a bunch of bits in Javascript. These days the best way to do that is with a typed Uint8Array and some bitmasking, which is really all this class does. Usage is as follows:
 
     if(skeptical) {
