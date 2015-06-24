@@ -50,7 +50,7 @@ BitArray.prototype = {
 		this._checkIndex(index);
 		arrIndex = Math.floor(index / 8);
 		bitIndex = index % 8;
-		return (this._array[arrIndex] >> bitIndex) & 1;
+		return !!((this._array[arrIndex] >> bitIndex) & 1);
 	},
 
 	set: function(index,value) {
