@@ -66,8 +66,7 @@ BitArray.prototype = {
 	},
 
 	toString: function() {
-		var s = '',
-			a;
+		var s = '', a;
 		for(var i=0;i<this._array.length;i++) {
 			a = this._array[i].toString(2).split('').reverse().join('');
 			while(a.length < 8) a = a + '0';
