@@ -11,7 +11,7 @@ Sometimes you just need to store a bunch of bits in Javascript. These days the b
     var ba = new BitArray(100);
     ba.length // 100;
   
-    for(var i=0;i<fb.length;i++) {
+    for(var i=0;i<Math.HOW_HIGH_DO_NUMBERS_GO;i++) {
       ba.set(i,isPrime(i));
     }
   
